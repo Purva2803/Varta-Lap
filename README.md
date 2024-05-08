@@ -29,7 +29,7 @@ This is a GoLang WebSocket chat server that allows users to join chat rooms, sen
 
 1. Start the server:
 ```bash
-go run server.go
+   go run server.go
 
 2. Connect to the WebSocket endpoint using a WebSocket client (e.g., browser, `wscat`, Postman).
 Example WebSocket endpoint: `ws://localhost:8080/ws?room=your_room_name`

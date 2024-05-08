@@ -12,23 +12,24 @@ This is a GoLang WebSocket chat server that allows users to join chat rooms, sen
 
 1. Make sure you have GoLang installed on your system. If not, you can download and install it from the official website: [https://golang.org/](https://golang.org/)
 
-2. Clone this repository:
+2. **Clone this repository**:
    ```bash
    git clone https://github.com/Purva2803/Varta-Lap.git
 
-3. Navigate to the project directory:
+3. **Navigate to the project directory**:
    ```bash
    cd Varta-Lap
 
-4. Install dependencies:
+4. **Install dependencies**:
    ```bash
    go get github.com/gorilla/websocket
 
 
 ## Usage
 
-1. Start the server:
-```bash
+1. **Start the server:**
+
+   ```bash
    go run server.go
 
 2. Connect to the WebSocket endpoint using a WebSocket client (e.g., browser, `wscat`, Postman).
